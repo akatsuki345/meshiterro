@@ -7,12 +7,4 @@ class CreatePostImages < ActiveRecord::Migration[6.1]
       t.timestamps
     end
   end
-
-  def show
-    t.integer :id
-    t.text :comment
-    t.integer :user_id
-    t.integer :post_image_id
-  end
-
 end
